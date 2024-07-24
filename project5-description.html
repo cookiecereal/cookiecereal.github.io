@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Employee SQL Dashboard - Personal Project</title>
+    <title>Grad Grant System - University Project</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -11,76 +11,82 @@
 <body class="is-preload">
     <div id="main">
         <section>
-            <h1>Employee SQL Dashboard Project</h1>
-            <img src="images/fulls/05.jpg" alt="Employee SQL Dashboard Visual" class="image fit" />
+            <h1>Grad Grant System Project</h1>
+            <img src="images/fulls/05.jpg" alt="Grad Grant System Visual" class="image fit" />
             <h2>Project Overview</h2>
-            <p>In November 2023, I developed a comprehensive SQL dashboard integrated with Excel to analyze employee
-                data, answer complex scenario questions, and extract valuable insights. This personal project, based in
-                El Paso, TX, showcases my skills in SQL, data analysis, and dashboard creation.</p>
+            <p>The Grad Grant System is a comprehensive platform designed to connect researchers with appropriate
+                funding opportunities. This system streamlines the process of finding, applying for, and managing
+                research grants, catering to individual researchers, research teams, and institutions.</p>
 
             <h2>Key Features</h2>
             <ul>
-                <li>SQL-Based Analysis: Developed a robust SQL dashboard to process and analyze employee data.</li>
-                <li>Excel Integration: Seamlessly integrated SQL query results with Excel for enhanced visualization and
-                    reporting.</li>
-                <li>Scenario Analysis: Implemented functionality to answer various scenario-based questions using the
-                    employee data.</li>
-                <li>Data Management: Enabled the addition and deletion of entries to maintain data accuracy and
-                    relevance.</li>
+                <li>Personalized Funding Recommendations: Displays funding opportunities based on registered users'
+                    interests.</li>
+                <li>User Management: Supports researchers with detailed profiles including name, contact information,
+                    email, and area of expertise.</li>
+                <li>Solicitation Management: Manages funding opportunities with detailed information including name,
+                    CFTA number, eligibility, and requirement documents.</li>
+                <li>Application Process: Facilitates the application process for multiple grants, including checklist
+                    generation.</li>
+                <li>Admin Controls: Allows administrators to change a researcher's award status.</li>
             </ul>
 
             <h2>Technical Details</h2>
-            <h3>SQL Development</h3>
+            <h3>User Management</h3>
             <ul>
-                <li>Designed and implemented complex SQL queries to extract meaningful insights from employee data.</li>
-                <li>Utilized SQL workshops for data gathering, ensuring comprehensive and accurate data collection.</li>
-                <li>Optimized query performance for efficient data retrieval and analysis.</li>
+                <li>Implemented user profiles with roles (e.g., researcher, team member, PI) and detailed information.
+                </li>
+                <li>Developed logic to enforce restrictions such as PI limitations and junior faculty-specific awards.
+                </li>
+                <li>Created a system to manage team compositions and apply team-specific restrictions.</li>
             </ul>
 
-            <h3>Excel Integration</h3>
+            <h3>Solicitation and Proposal Management</h3>
             <ul>
-                <li>Developed a method to export SQL query results directly to Excel, preserving data integrity.</li>
-                <li>Created dynamic Excel dashboards to visualize and interact with the exported data.</li>
-                <li>Implemented data validation and error checking in Excel to maintain data quality.</li>
+                <li>Designed a database to store and manage solicitation details, including eligibility criteria and
+                    funding limits.</li>
+                <li>Implemented a proposal submission system with deadline enforcement.</li>
+                <li>Developed an automated checklist generation system for applicants.</li>
             </ul>
 
             <h2>Key Achievements</h2>
             <ul>
-                <li>Efficient Data Analysis: Streamlined the process of analyzing large sets of employee data.</li>
-                <li>Enhanced Decision Making: Provided a tool for quick and accurate answers to complex scenario-based
-                    questions.</li>
-                <li>Data Integrity: Ensured data accuracy through controlled addition and deletion of entries.</li>
-                <li>Effective Presentation: Developed skills in presenting query results in a clear and impactful
-                    manner.</li>
+                <li>Efficient Grant Discovery: Streamlined the process of finding relevant funding opportunities for
+                    researchers.</li>
+                <li>Customized User Experience: Provided personalized recommendations based on user profiles and
+                    interests.</li>
+                <li>Streamlined Application Process: Simplified the grant application process with guided checklists and
+                    deadline management.</li>
+                <li>Flexible Administration: Enabled administrators to manage user statuses and oversee the grant
+                    allocation process.</li>
             </ul>
 
             <h2>Technologies Used</h2>
             <ul>
-                <li>SQL: For database queries and data manipulation</li>
-                <li>Excel: For data visualization and additional analysis</li>
-                <li>Data Visualization Tools: [Specific tools used, if any]</li>
-                <li>Version Control: [If used, e.g., Git]</li>
+                <li>Database:  MySQL, PostgreSQL</li>
+                <li>Backend: Java, Python, Node.js</li>
+                <li>Frontend: React, Angular, Vue.js</li>
             </ul>
 
             <h2>Challenges and Solutions</h2>
             <ul>
-                <li>Challenge: Handling large datasets efficiently.
-                    <br>Solution: Optimized SQL queries and implemented indexing for improved performance.
+                <li>Challenge: Managing complex eligibility criteria for different grants.
+                    <br>Solution: Implemented a flexible rule-based system for defining and checking eligibility.
                 </li>
-                <li>Challenge: Ensuring data consistency between SQL and Excel.
-                    <br>Solution: Developed a robust export mechanism with error checking and validation.
+                <li>Challenge: Ensuring data privacy and security for sensitive research information.
+                    <br>Solution: Implemented robust encryption and access control measures.
                 </li>
-                <li>Challenge: Creating user-friendly interfaces for non-technical users.
-                    <br>Solution: Designed intuitive Excel dashboards with clear instructions and interactive elements.
+                <li>Challenge: Handling multiple simultaneous applications and team compositions.
+                    <br>Solution: Developed a scalable database structure and efficient querying system.
                 </li>
             </ul>
 
             <h2>Future Enhancements</h2>
             <p>Potential areas for future development include:</p>
             <ul>
-                <li>Implementing real-time data synchronization between SQL and Excel.</li>
-                <li>Developing a web-based interface for broader accessibility.</li>
-                <li>Incorporating machine learning algorithms for predictive analytics on employee data.</li>
+                <li>Implementing an AI-driven recommendation system for more accurate funding matches.</li>
+                <li>Developing an integrated collaboration platform for research teams.</li>
+                <li>Creating a mobile application for on-the-go access to grant information and applications.</li>
             </ul>
 
             <a href="index.html" class="button">Back to Portfolio</a>
