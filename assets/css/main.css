@@ -2651,11 +2651,11 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgb(255, 255, 255);
 		}
 
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
+		color: rgba(255, 255, 255, 0.438);
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
